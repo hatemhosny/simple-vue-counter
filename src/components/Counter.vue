@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import PrimaryButton from "./PrimaryButton.vue";
-import DangerButton from "./DangerButton.vue";
+import PrimaryButton from "./PrimaryButton";
+import DangerButton from "./DangerButton";
 
 const count = ref(0);
 </script>
